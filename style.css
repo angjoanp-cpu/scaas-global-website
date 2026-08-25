@@ -309,46 +309,6 @@ a {
 
 
 /* =========================
-   FORM
-========================= */
-
-.form-group {
-    margin-bottom: 20px;
-}
-
-.form-group label {
-    display: block;
-
-    margin-bottom: 8px;
-
-    font-weight: bold;
-    color: #071426;
-}
-
-.form-group input,
-.form-group textarea {
-    width: 100%;
-
-    padding: 12px 14px;
-
-    border: 1px solid #cbd5e1;
-    border-radius: 6px;
-
-    font-size: 1rem;
-}
-
-.form-group input:focus,
-.form-group textarea:focus {
-    outline: none;
-
-    border-color: #d4af37;
-
-    box-shadow:
-        0 0 0 3px rgba(212, 175, 55, 0.15);
-}
-
-
-/* =========================
    COMPANY DETAILS
 ========================= */
 
@@ -373,34 +333,22 @@ a {
    RESPONSIVE DESIGN
 ========================= */
 
-@media (max-width: 900px) {
-
-    .card-grid {
-        grid-template-columns:
-            repeat(2, 1fr);
-    }
-
-    .contact-layout {
-        grid-template-columns: 1fr;
-    }
-
-    .hero-title {
-        font-size: 2.3rem;
-    }
-}
-
-
-@media (max-width: 650px) {
+@media (max-width: 768px) {
 
     .header-container {
         flex-direction: column;
-        gap: 18px;
+        gap: 20px;
+        padding: 20px;
     }
 
     .nav-menu {
         flex-wrap: wrap;
         justify-content: center;
-        gap: 15px;
+        gap: 15px 25px;
+    }
+
+    .site-logo img {
+        width: 140px;
     }
 
     .card-grid {
@@ -412,11 +360,7 @@ a {
     }
 
     .hero-title {
-        font-size: 2rem;
-    }
-
-    .hero-subtitle {
-        font-size: 1rem;
+        font-size: 2.2rem;
     }
 
     #systems h2 {
