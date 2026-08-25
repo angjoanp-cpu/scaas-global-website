@@ -285,7 +285,6 @@ a {
 
 #contact {
     max-width: 1100px;
-
     margin: 0 auto;
     padding: 80px 24px;
 }
@@ -294,19 +293,14 @@ a {
     text-align: center;
     font-size: 2.3rem;
     margin-bottom: 40px;
-
     color: #071426;
 }
 
 .contact-layout {
     display: grid;
-
-    grid-template-columns:
-        2fr 1fr;
-
-    gap: 50px;
+    grid-template-columns: 1fr;
+    gap: 30px;
 }
-
 
 /* =========================
    COMPANY DETAILS
@@ -332,6 +326,17 @@ a {
 /* =========================
    RESPONSIVE DESIGN
 ========================= */
+
+@media (max-width: 900px) {
+
+    .card-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .hero-title {
+        font-size: 2.3rem;
+    }
+}
 
 @media (max-width: 768px) {
 
