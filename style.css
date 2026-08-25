@@ -373,3 +373,7 @@ a {
         font-size: 1.9rem;
     }
 }
+
+.primary-nav .nav-menu a {
+    color: #ffffff !important;
+}
