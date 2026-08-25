@@ -36,9 +36,9 @@ a {
 }
 
 .header-container {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
-    padding: 16px 24px;
+    padding: 20px 40px;
 
     display: flex;
     justify-content: space-between;
@@ -46,25 +46,27 @@ a {
 }
 
 .site-logo img {
-    width: 150px;
+    width: 170px;
     height: auto;
 }
-
 
 /* =========================
    NAVIGATION
 ========================= */
 
 .nav-menu {
-    list-style: none;
     display: flex;
-    gap: 28px;
+    align-items: center;
+    gap: 35px;
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .nav-menu a {
-    color: #ffffff;
-    font-weight: 600;
-    transition: 0.3s;
+    text-decoration: none;
+    white-space: nowrap;
 }
 
 .nav-menu a:hover {
