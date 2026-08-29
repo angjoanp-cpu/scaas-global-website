@@ -482,3 +482,85 @@ a {
     outline: 3px solid #ffffff;
     outline-offset: 3px;
 }
+/* =========================
+   SYSTEMS SECTION
+========================= */
+
+#systems {
+    background-color: #1d2533;
+    color: #ffffff;
+    padding: 80px 40px;
+    text-align: center;
+}
+
+#systems h2 {
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+
+.system-item {
+    max-width: 900px;
+    margin: 0 auto 40px;
+    padding: 35px;
+    background-color: #1d2533;
+    color: #ffffff;
+    border: 1px solid #c9a227;
+    border-radius: 10px;
+}
+
+.system-item h3 {
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.system-item p {
+    color: #ffffff;
+    margin-bottom: 25px;
+}
+
+/* Gold buttons for both systems */
+
+#systems .btn {
+    display: inline-block;
+    padding: 14px 26px;
+    background-color: #ddb632;
+    color: #050505;
+    border: 2px solid #ddb632;
+    border-radius: 7px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+#systems .btn:hover {
+    background-color: transparent;
+    color: #ddb632;
+    transform: translateY(-2px);
+}
+
+/* PartnerVelocity video */
+
+.video-container {
+    max-width: 900px;
+    margin: 25px auto;
+}
+
+.video-container video {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid #c9a227;
+    border-radius: 8px;
+}
+
+/* Mobile layout */
+
+@media (max-width: 768px) {
+    #systems {
+        padding: 60px 20px;
+    }
+
+    .system-item {
+        padding: 25px 20px;
+    }
+}
